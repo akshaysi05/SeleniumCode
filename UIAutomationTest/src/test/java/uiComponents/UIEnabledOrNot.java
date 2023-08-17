@@ -35,4 +35,6 @@ public class UIEnabledOrNot {
 	}
 
 }
-//Hare EnableUI.isEnabled() Methods Does Not Works Becaues  Ui All Time Already Enabled.
+//Here EnableUI.isEnabled() Methods Does Not Works Becaues  Ui All Time Already Enabled.
+//We Can Check Also UI Enabled or desbled Aslo  Get Attribute And Check After Enabled or Disabled UI properties Changes or not So We Can Check Under If 
+//Conditon And Find Enabled Or Disbaled .
