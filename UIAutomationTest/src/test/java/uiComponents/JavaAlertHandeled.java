@@ -28,9 +28,9 @@ public class JavaAlertHandeled {
 		driver.findElement(By.id("confirmbtn")).click();
 		//Thread.sleep(2000);
 		//cancle the alert
-	System.out.println(	driver.switchTo().alert().getText());
+	     System.out.println(	driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
-		
+	
 
 	}
 
