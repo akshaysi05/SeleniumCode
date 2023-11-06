@@ -31,7 +31,7 @@ public class FirstCode {
 			
 			 System.out.println( sugg.getText());
 		 }
-		 //Click The First Seggession
+		 //Click The First Suggestion
 		 Autosuj.get(0).click();
 
 	}

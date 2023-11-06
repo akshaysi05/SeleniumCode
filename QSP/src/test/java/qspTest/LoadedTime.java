@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+ 
 public class LoadedTime{
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
@@ -20,7 +20,7 @@ public class LoadedTime{
             String title=driver.getTitle();
 
             // Use an expected condition to wait for page load
-            wait.until(ExpectedConditions.titleContains("title"));
+            wait.until(ExpectedConditions.titleContains(title));
 
             // If the page title contains the expected title, it means the page has loaded
             System.out.println("Page loaded successfully within " + pageLoadTimeoutSeconds + " seconds.");
